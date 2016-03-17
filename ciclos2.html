@@ -6,15 +6,21 @@
 	<script type="text/javascript">
 function inicio()
 {
+	/*Ciclo de gritos con while*/
 	var c = document.getElementById("caja");
-	c.innerHTML = "Hola papá";
+	var gritos = 10;
+	while (gritos > 0)
+	{
+		c.innerHTML += "a";
+		gritos = gritos - 1;
+	}
 }
 
 	</script>
 	
 </head>
 <body>
-	<div id="caja">Hola Mamá</div>
+	<div id="caja">A</div>
 </body>
 <script type="text/javascript">
 	inicio();
